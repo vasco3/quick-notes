@@ -1,0 +1,2 @@
+# quick-notes
+Notepad
