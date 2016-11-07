@@ -1,0 +1,12 @@
+{
+  "name": "quick-notes",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest"
+  },
+  "version": "0.0.1"
+}
