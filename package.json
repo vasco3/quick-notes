@@ -3,10 +3,14 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "next": "latest"
+    "next": "latest",
+    "snyk": "^1.192.3"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "snyk": true
 }
